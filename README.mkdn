@@ -1,5 +1,5 @@
 
-Resurrection Remix OS Oreo Source 2018
+Joe's fork of: Resurrection Remix OS Oreo Source 2018
 ===================
 
 [Crowdin for translations](https://crowdin.com/project/resurrectionremix/)
@@ -12,17 +12,6 @@ Rom Downloads
 
 [Download Resurrection Remix OS](https://sourceforge.net/projects/resurrectionremix-oreo/files/?source=navbar)
 
-[![Download Resurrection Remix 
-OS](https://img.shields.io/sourceforge/dd/resurrectionremix-oreo.svg)](https://sourceforge.net/projects/resurrectionremix-oreo/files/)
-
-[![Download Resurrection Remix 
-OS](https://img.shields.io/sourceforge/dw/resurrectionremix-oreo.svg)](https://sourceforge.net/projects/resurrectionremix-oreo/files/)
-
-[![Download Resurrection Remix 
-OS](https://img.shields.io/sourceforge/dm/resurrectionremix-oreo.svg)](https://sourceforge.net/projects/resurrectionremix-oreo/files/)
-
-[![Download Resurrection Remix 
-OS](https://img.shields.io/sourceforge/dt/resurrectionremix-oreo.svg)](https://sourceforge.net/projects/resurrectionremix-oreo/files/)
 
 Getting Started
 ---------------
@@ -100,7 +89,7 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initializing the RR repo and downloading the manifest
 
-      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b oreo
+      $  repo init -u https://github.com/Joey-Fuentes/platform_manifest.git -b oreo
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~26GB]
