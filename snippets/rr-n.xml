@@ -37,5 +37,10 @@
 
   <!-- interfacer -->
   <project name="packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="rr" />
+  
+  <!-- To make the build pass as-is -->
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_huawei_kiwi" path="kernel/huawei/kiwi" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_huawei_kiwi" path="device/huawei/kiwi" remote="github" revision="cm-14.1" />
 
 </manifest>
