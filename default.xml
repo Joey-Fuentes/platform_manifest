@@ -563,7 +563,12 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
-
+  LineageOS/android_kernel_huawei_kiwi
+LineageOS/android_device_huawei_kiwi
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_kernel_huawei_kiwi" path="kernel/huawei" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_device_huawei_kiwi" path="device/huawei" remote="github" revision="lineage-15.0" />
+  
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
 
