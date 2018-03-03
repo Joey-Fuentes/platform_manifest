@@ -564,10 +564,10 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
-  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="lineage-15.0" />
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="lineage-15.1" />
 
-  <project name="LineageOS/android_kernel_huawei_kiwi" path="kernel/huawei/kiwi" remote="github" revision="lineage-15.0" />
-  <project name="LineageOS/android_device_huawei_kiwi" path="device/huawei/kiwi" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_kernel_huawei_kiwi" path="kernel/huawei/kiwi" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_device_huawei_kiwi" path="device/huawei/kiwi" remote="github" revision="lineage-15.1" />
   
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
